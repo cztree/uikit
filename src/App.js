@@ -1,13 +1,13 @@
-import React from 'react';
-import { Button } from 'antd';
-import './App.css';
+import React from 'react'
+import { /* Layout, Menu, Breadcrumb,*/ Button } from 'antd'
+import './App.css'
 
-function App() {
+// const { Header, Content, Footer } = Layout
+
+function App () {
   return (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
-  );
+    <Button className='custom-button'>Test</Button>
+  )
 }
 
-export default App;
+export default App
