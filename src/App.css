@@ -52,3 +52,19 @@
     padding: 15px 60px;
   }
 }
+
+.ant-avatar.custom-avatar {
+  height: auto;
+  padding: 5px 20px;
+  background-color: #00c181 !important;
+  border: none;
+  border-radius: 5px;
+  font-family: $ubuntu-font;
+  font-size: 14px;
+  color: $white !important;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

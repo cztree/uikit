@@ -1,12 +1,18 @@
-import React from 'react'
-import { /* Layout, Menu, Breadcrumb,*/ Button } from 'antd'
+import React, { Fragment } from 'react'
+import CustomButton from './components/CustomButton'
+import CustomAvatar from './components/CustomAvatar'
+import CustomInputGroup from './components/CustomInputGroup'
 import './App.css'
 
 // const { Header, Content, Footer } = Layout
 
-function App () {
+function App() {
   return (
-    <Button className='custom-button'>Test</Button>
+    <Fragment>
+      <CustomButton />
+      <CustomAvatar />
+      <CustomInputGroup />
+    </Fragment>
   )
 }
 
